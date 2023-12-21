@@ -8,7 +8,7 @@ pipeline {
          }
         stage('Deploy') {
           steps {
-            sh 'sudo cp index.html /var/www/local'
+            sh 'sudo cp index.html /var/local'
           }
         }
    }
